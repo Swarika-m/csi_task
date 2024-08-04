@@ -12,7 +12,7 @@
     max-height: 104px;
     position: fixed;
     top: 0px;
-    background-color: #FFFFFF;
+    background-color: #ffecec;
     cursor: pointer;
     z-index: 1;
 }
@@ -198,7 +198,7 @@
     display: flex;
     height: 560px;
     width: 1216px;
-    margin: 0% 15%;
+    margin: 0% 12%;
     border: none;
 }
 
@@ -280,7 +280,7 @@
 /* about end */
 /* Our services start */
 #services{
-    margin: 0% 15%;
+    margin: 0% 12%;
 }
 .eyebrow2 {
     display: flex;
@@ -356,7 +356,7 @@
 /* Our services end */
 /* Recent work start */
 #work{
-    margin: 0% 15%;
+    margin: 0% 12%;
 }
 .eyebrow3 {
     display: flex;
@@ -1068,7 +1068,7 @@ hr {
     .nav-list{
         display: flex;
         flex-direction: column;
-        transition: all 1.0s ease-out;
+        transition: all 0.5s ease-out;
     }
 
     .nav-list li {
