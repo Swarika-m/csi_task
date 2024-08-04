@@ -507,15 +507,19 @@ hr {
 
 .Sec {
     display: flex;
-
+    justify-content: space-evenly;
+    
 }
 
 .leftSec {
-    margin: auto;
+    margin:  auto;
 }
 
 .rightSec {
-    margin: auto;
+    margin: auto ;
+}
+.loc{
+    margin-top: 3px;
 }
 
 .kick {
@@ -714,8 +718,9 @@ hr {
         padding-right: 3%;
         /* margin-left: ; */
     }
+    
     .rightSec{
-        padding-left: 40%;
+        padding-left: 4%;
     }
     .Herro{
         display: none;
@@ -741,7 +746,7 @@ hr {
         margin: 0% 40% 0% 32%;
     }
     .rightSec{
-        padding-left: 50%;
+        padding-left: 5%;
     }
 
 }
@@ -809,7 +814,7 @@ hr {
 
     .about{
         flex-direction: column;
-        margin-left: 70%;
+        margin-left: 60%;
         z-index: 0;
         margin-right: 0%;
         max-width: 768px;
@@ -823,7 +828,7 @@ hr {
         z-index: -1;
     }
     .service{
-        margin-left: 90%;
+        margin-left: 70%;
         margin-top: 200%;
         flex-direction: column;
         z-index: -2;
@@ -838,17 +843,17 @@ hr {
     }
     .textSer{
         width: 140%;
-        margin-left: 75%;
+        margin-left: 65%;
         margin-right: 0%;
     }
     .eyebrow2{
-        margin-left: 75%;
+        margin-left: 65%;
         margin-top: 120%;
         margin-right: 0%;
         min-width: 300px;
     }
     .serv{
-        margin-left: 75%;
+        margin-left: 65%;
         margin-right: 0%;
     }
     .work{
@@ -865,10 +870,10 @@ hr {
     }
     .col1{
         margin-right: 0%;
-        margin-left: 70%;
+        margin-left: 60%;
     }
     .col2{
-        margin-left: 70%;
+        margin-left: 60%;
         position: relative;
         bottom: 400px;
         margin-right: 0%;
@@ -899,7 +904,7 @@ hr {
         width: 50%;
     }
     .right{
-        margin-left: 60% ;
+        margin-left: 40% ;
         margin-right: 0%;
     }
   
