@@ -148,30 +148,26 @@
 /* hero end */
 /* award start */
 .orient {
-    color: #FFFFFF;
-    writing-mode: vertical-lr;
-    transform: rotate(180deg);
+    color: #694141;
+    /* writing-mode: vertical-lr;
+    transform: rotate(180deg); */
     font-family: "Playfair Display", serif;
-    padding: 11px 100px 3px 15px;
-    font-size: 24px;
-    opacity: 70%;
-
+    /* padding: 11px 100px 3px 15px; */
+    font-size: 44px;
+    text-decoration: underline;
+    position: absolute;
+    left: 700px;
 }
 
-.line {
-    color: #FFFFFF;
-    opacity: 50%;
-    padding: 35px 3px 5px 10px;
-}
 
-.award {
+/* .award {
     background-color: #2C2C2C;
-    margin: 0px;
+    margin-top: 5px;
     position: relative;
     bottom: 130px;
     display: flex;
     width: 1440px;
-    height: 100px;
+    height: 500px;
     z-index: -1;
 }
 
@@ -179,16 +175,32 @@
     display: flex;
     color: #D9D9D6;
     list-style: none;
+    width: 5000px;
 }
 
 .awards li {
     display: flex;
     padding: 10px 30px;
-}
+} */ 
+ .award{
+    z-index: -1;
+    background-color: #f6e2e2;
+    height: 330px;
+    margin-top: 10px;
+    min-width: 1500px;
+ }
+ .awards{
+    margin: 5px 20px 5px 0px;
+ }
+ .awards img{
+    height: 200px;
+    border-radius: 11px;
+    margin-top: 55px;
+    -webkit-box-reflect: below 10px linear-gradient(rgba(255,255,255,0.1),rgba(255,255,255,0.3));
+ }
+ 
 
-.text-1 {
-    padding: 22px 10px;
-}
+
 
 /* award end */
 
@@ -198,7 +210,7 @@
     display: flex;
     height: 560px;
     width: 1216px;
-    margin: 0% 12%;
+    margin: 5% 12%;
     border: none;
 }
 
@@ -725,9 +737,12 @@ hr {
     .Herro{
         display: none;
     }
-
+    .award{
+        min-width: 1450px;
+    }
 
 }
+
 
 
 
@@ -747,6 +762,9 @@ hr {
     }
     .rightSec{
         padding-left: 5%;
+    }
+    .about{
+        margin-top: 15%;
     }
 
 }
@@ -805,9 +823,7 @@ hr {
         height: 8%;
         margin-right: 0%;
     }
-    .orient{
-        padding: 6% 19% 3% 5%;
-    }
+    
     .line{
         padding: 7% 0% 3% 1%;
     }
@@ -1161,35 +1177,26 @@ hr {
     /* hero end */
     /* award start */
     .orient {
-        padding: 340px 10px 3px 15px;
+        /* padding: 230px 10px 3px 150px; */
+        position: absolute;
+        left: 110px;
     }
     
-    .line {
-        padding: 60px 3px 5px 4px;
-    }
+    
     
     .award {
-        position: relative;
-        bottom: 160px;
-        width: 375px;
-        height: 450px;
+        min-width: 375px;
+        height: 280px;
+    }
+    .awards li img{
+        width: 200px;
+        margin-left: 0px;
+        margin-right: 0px;
+        height: 150px;
+        transform: perspective(none);
     }
     
-    .awards {
-        display: flex;
-        flex-direction: column;
-    }
     
-    .awards li {
-        display: flex;
-        padding: 10px 9px;
-    }
-    
-    .text-1 {
-        padding: 22px 10px;
-        width: 141px;
-        height: 48px;
-    }
     
     /* award end */
     
@@ -1199,6 +1206,7 @@ hr {
         height: 969px;
         width: 375px;
         margin: 1%;
+        margin-top: 58%;
     }
     
     .eyebrow1 {
